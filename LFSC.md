@@ -146,9 +146,9 @@ read_counts_norm
     ## #   norm.Two_Four_c_rep1 <dbl>, norm.Two_Four_c_rep2 <dbl>,
     ## #   norm.Four_Eight_c_rep1 <dbl>, norm.Four_Eight_c_rep2 <dbl>
 
-The next step is to create a list column of our data frame. So, I did
+The next step is to create a list column for each group of my data frame. So, I did
 this step by using `nest()` and then I defined a function to calculate a
-linear regression for each treatment. In this step `lm()` function was
+regression model for each group. In this step `lm()` function was
 used. Also, to get the slope of the linear model for each treatment I
 wrote a new function, `get_slope`.
 
