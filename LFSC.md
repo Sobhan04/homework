@@ -149,7 +149,7 @@ read_counts_norm
 The next step is to create a list column for each group of my data frame. So, I did
 this step by using `nest()` and then I defined a function to calculate a
 regression model for each group. In this step `lm()` function was
-used. Also, to get the slope of the linear model for each treatment I
+used. Also, to get the slope of the linear model for each group I
 wrote a new function, `get_slope`.
 
 These steps should be repeated for both of our treatments. First, I did
